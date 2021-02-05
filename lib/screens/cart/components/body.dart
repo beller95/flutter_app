@@ -33,10 +33,10 @@ class Body extends StatelessWidget {
                       topRight: Radius.circular(24),
                     ),
                   ),
-                  child: Row(
+                  child: Column(
                     children: <Widget>[
-                      //CartItems(),
-                      //Checkout(),
+                      CartItems(),
+                      Checkout(),
                       SizedBox(height: paddingDefault / 2),
                     ],
                   ),

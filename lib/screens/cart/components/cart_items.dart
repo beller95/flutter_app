@@ -1,7 +1,7 @@
 import 'package:dotted_border/dotted_border.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-
+import 'package:the_flutter_app/constants.dart';
 import 'package:the_flutter_app/constants.dart';
 
 class CartItems extends StatelessWidget {
@@ -40,7 +40,7 @@ class CartItems extends StatelessWidget {
                 "1549",
                 style: TextStyle(
                   fontSize: 20,
-                  color: Colors.red,
+                  color: colorPrimary,
                   fontWeight: FontWeight.bold,
                 ),
               )

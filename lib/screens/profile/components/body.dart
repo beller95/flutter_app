@@ -39,6 +39,7 @@ class Body extends StatelessWidget {
                       Description(),
                       SizedBox(
                       height: 200,
+                      width: 400,
                       child: GoogleMap(initialCameraPosition: CameraPosition(
                           target: LatLng(46.2587, 20.14222), zoom: 16)),
                       ),
